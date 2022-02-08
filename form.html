@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                text-align: left;
+            }
+            form{
+                border: 2px solid maroon;
+                background-color: beige;
+                margin:auto;
+                width:fit-content;
+            }
+            label{
+                padding-left: 2px;
+            }
+            input{
+                padding-left: 20px;
+            }
+        </style>
+
+        <title>
+            Registration Form
+        </title>
+    </head>
+    <body>
+        <form class="user">
+            <h2>Student Registration Form</h2>
+            <br>
+            <label>Name :</label>
+            <input type="text" id="name">
+            <br><br>
+            <label>Address :</label>
+            <textarea id="add" rows="4"></textarea>
+            <br><br>
+            <label>Contact Number :</label>
+            <input type="text" id="num">
+            <br><br>
+            <label>Email :</label>
+            <input type="email" id="mail">
+            <br><br>
+            <label>Nationality :</label>
+            <select class="combo">
+                <option value="Select">Select....</option>
+                <option value="html">India</option>
+                <option value="css">Pakistan</option>
+                <option value="javascript">Canada</option>
+                <option value="javascript">Bangladesh</option>
+            </select>
+                <br><br>
+                <label>Subjects :</label>
+                <label>Mathematics</label>
+                <input  type="checkbox" id="sub1"> 
+                <label for="veg2">Physics</label>
+                <input type="checkbox" id="sub2"> 
+                <label>Biology</label>
+                <input type="checkbox" id="sub2"> 
+                <label for="veg4"></label>
+            <br><br>
+            <label>Gender :</label>
+		<input type="radio" name="gender" value="Male">Male
+		<input type="radio" name="gender" value="Female">Female
+		<input type="radio" name="gender" value="Other">Other
+
+
+        </form>
+        
+    </body>
+</html>
